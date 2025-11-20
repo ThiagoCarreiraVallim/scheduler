@@ -2,6 +2,19 @@
 
 A monorepo application for scheduling WhatsApp messages with a NestJS backend and Next.js frontend.
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](LICENSE)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](docker-compose.yml)
+[![Node](https://img.shields.io/badge/Node-18%2B-green.svg)](package.json)
+
+## 📚 Documentation
+
+- **[Setup Guide](SETUP.md)** - Detailed installation and configuration instructions
+- **[Architecture](ARCHITECTURE.md)** - System design and technical documentation
+- **[Contributing](CONTRIBUTING.md)** - Development guidelines and contribution process
+- **[Troubleshooting](TROUBLESHOOTING.md)** - Common issues and solutions
+- **[Screenshots](SCREENSHOTS.md)** - UI/UX documentation
+- **[Changelog](CHANGELOG.md)** - Version history and updates
+
 ## Features
 
 - 🔐 WhatsApp Web authentication via QR code
@@ -165,6 +178,27 @@ NEXT_PUBLIC_API_URL=http://localhost:3001
 - `createdAt` - Creation timestamp
 - `updatedAt` - Last update timestamp
 
+## Need Help?
+
+- 📖 Read the [Setup Guide](SETUP.md) for detailed installation instructions
+- 🔧 Check the [Troubleshooting Guide](TROUBLESHOOTING.md) for common issues
+- 🏗️ See the [Architecture Documentation](ARCHITECTURE.md) for technical details
+- 💬 Open an [issue](https://github.com/ThiagoCarreiraVallim/scheduler/issues) if you need support
+
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) to get started.
+
 ## License
 
-ISC
+This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+This project uses an unofficial WhatsApp API (whatsapp-web.js). Use at your own risk. The authors are not responsible for any misuse or violations of WhatsApp's Terms of Service.
+
+## Acknowledgments
+
+- [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) - WhatsApp Web API
+- [NestJS](https://nestjs.com/) - Backend framework
+- [Next.js](https://nextjs.org/) - Frontend framework
