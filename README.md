@@ -35,6 +35,27 @@ A monorepo application for scheduling WhatsApp messages with a NestJS backend an
 
 ### Running with Docker Compose
 
+#### Option 1: Using the Quick Start Script (Recommended)
+
+```bash
+git clone https://github.com/ThiagoCarreiraVallim/scheduler.git
+cd scheduler
+./start.sh
+```
+
+The script will:
+- Check if Docker is installed
+- Create environment files
+- Build and start all containers
+- Display the application URLs
+
+To stop the application:
+```bash
+./stop.sh
+```
+
+#### Option 2: Manual Docker Compose
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/ThiagoCarreiraVallim/scheduler.git
