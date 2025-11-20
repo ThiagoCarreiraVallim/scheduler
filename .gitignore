@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+*/node_modules/
+**/node_modules/
 
 # Environment variables
 .env
@@ -27,3 +29,6 @@ whatsapp-session/
 .idea/
 *.swp
 *.swo
+
+# Package lock files (optional, remove if you want to commit them)
+# package-lock.json
